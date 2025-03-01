@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: binarycalculator
-          image: BinaryCalculatorWebapp/binarycalculator:latest  
+          image: BinaryCalculatorWebapp/binarycalculator  
           ports:
             - containerPort: 8080
