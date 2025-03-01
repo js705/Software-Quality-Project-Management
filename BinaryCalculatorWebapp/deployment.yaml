@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: binarycalculator
-          image: BinaryCalculatorWebapp/binarycalculator  
+          image: image: northamerica-northeast2-docker.pkg.dev/lab3part1-452321/sofe3980u/binarycalculator 
           ports:
             - containerPort: 8080
