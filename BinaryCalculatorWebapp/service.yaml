@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: binarycalculator-service
 spec:
-  type: LoadBalancer
   selector:
     app: binarycalculator
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 8080
